@@ -1,16 +1,33 @@
-# api_practice
+**🌐 Flutter API Practice App (GET Request)**
 
-A new Flutter project.
+This Flutter app is built for learning and practicing API integration. It fetches data from a remote server using the HTTP GET method, parses the JSON response, and displays the information in a clean UI. This project helps developers understand API handling, async programming, and JSON parsing in Flutter.
 
-## Getting Started
+**📦 Features**
 
-This project is a starting point for a Flutter application.
+Fetch data from a public API using http package
 
-A few resources to get you started if this is your first Flutter project:
+Parse JSON into Dart model classes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Display dynamic data in ListView
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Show loading indicator while fetching
+
+Error handling for failed API responses
+
+**⚙️ Technologies Used**
+
+Flutter
+
+Dart
+
+http package for REST API requests
+
+**🌐 API Source**
+
+Data fetched from:
+
+🔗 https://fakestoreapi.com/products
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/be853863-761e-4f63-8a0a-05845ae19bbe" alt="API App Screenshot" width="300" />
+</p>
